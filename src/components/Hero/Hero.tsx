@@ -1,6 +1,5 @@
 'use client'
 import useRoleSwitcher from '@/hooks/useRoleSwitcher'
-import useRotatingAnimation from '@/hooks/useRotatingAnimation'
 
 const Hero = () => {
   const role = useRoleSwitcher({ roles: ['FULLSTACK DEVELOPER', 'FRONTEND DEVELOPER', 'BACKEND DEVELOPER', 'NEXT.JS DEVELOPER'] })
