@@ -40,7 +40,6 @@ const Navbar = () => {
         ) : (
           <Link href="/">
             <div className="animate-fade-up text-primary-content relative flex items-center transition-all duration-300 md:static gap-0">
-              <span className="text-accent font-mono text-sm">//</span>
               <span className="text-primary-content">dipsha_das</span>
             </div>
           </Link>
