@@ -1,0 +1,8 @@
+{
+  "priority": 1,
+  "title": "turbo-tsconfig-gen",
+  "shortDescription": "Published npm CLI tool that automates TypeScript configuration in Turborepo monorepos. Used by developers worldwide.",
+  "livePreview": "https://www.npmjs.com/package/turbo-tsconfig-gen",
+  "type": "Open Source",
+  "siteAge": "Published package"
+}
