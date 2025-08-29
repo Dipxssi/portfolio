@@ -1,6 +1,3 @@
-// Data for portfolio
-import { title } from 'process'
-
 import {
   ExpressjsIcon,
   JavaScriptIcon,
@@ -17,7 +14,6 @@ import {
   Turborepo
 } from '../utils/icons'
 
-// Project Data
 export const projects = [
   {
     priority: 1,
