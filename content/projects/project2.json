@@ -1,8 +1,8 @@
 {
   "priority": 2,
-  "title": "Canvas",
-  "shortDescription": "Real-time collaborative drawing platform where multiple users can draw together in shared rooms, similar to Excalidraw.",
-  "livePreview": "https://github.com/Dipxssi/canvas",
-  "type": "Full-Stack App ",
-  "siteAge": "Active project"
+  "title": "Receptionist-agent",
+  "shortDescription": "This project implements a Domain-Specific AI Intake Agent using the OpenMic API. The agent acts as a Receptionist",
+  "livePreview": "https://github.com/Dipxssi/Receptionist-agent",
+  "type": "Agentic AI Agent",
+  "siteAge": "Completed project"
 }

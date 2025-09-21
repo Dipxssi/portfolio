@@ -17,6 +17,31 @@ import {
 export const projects = [
   {
     priority: 1,
+    title: "quite-hour-scheduler",
+    shortDescription: "A comprehensive study session management application that helps students schedule focused work periods with intelligent email reminders.",
+    livePreview: "https://github.com/Dipxssi/quiet-hours-scheduler",
+    type: "Full Stack App",
+    siteAge: "Completetd project"
+  },
+  {
+    priority: 2,
+    title: "Receptionist-agent",
+    shortDescription: "This project implements a Domain-Specific AI Intake Agent using the OpenMic API. The agent acts as a Receptionist",
+    livePreview: "https://github.com/Dipxssi/Receptionist-agent",
+    type: "Agentic AI Agent",
+    siteAge: "Completed project"
+  },
+  {
+    priority: 3,
+    title: "Finboard",
+    shortDescription: "A powerful, real-time finance monitoring dashboard  that allows users to create customizable widgets by connecting to various financial APIs.",
+    livePreview: "https://github.com/Dipxssi/FinBoard",
+    type: "Finance Dashboard",
+    siteAge: "Complete project"
+  },
+
+  {
+    priority: 4,
     title: 'turbo-tsconfig-gen',
     shortDescription: 'Published npm CLI tool that automates TypeScript configuration in Turborepo monorepos. Used by developers worldwide.',
     livePreview: 'https://www.npmjs.com/package/turbo-tsconfig-gen',
@@ -24,7 +49,7 @@ export const projects = [
     siteAge: 'Published package',
   },
   {
-    priority: 2,
+    priority: 5,
     title: 'Canvas',
     shortDescription: 'Real-time collaborative drawing platform where multiple users can draw together in shared rooms, similar to Excalidraw.',
     livePreview: 'https://github.com/Dipxssi/canvas',
@@ -32,7 +57,7 @@ export const projects = [
     siteAge: 'Active project',
   },
   {
-    priority: 3,
+    priority: 6,
     title: 'Payway',
     shortDescription: 'Full-stack digital wallet platform with secure payment processing, user authentication, and transaction management.',
     livePreview: 'https://github.com/Dipxssi/payway',
@@ -76,8 +101,8 @@ export const serviceData = [
   },
   {
     icon: DatabaseIcon,
-    title : 'Database Development',
-    shortDescription : 'Designing and implementing scalable databases with MongoDB and SQL solutions.'
+    title: 'Database Development',
+    shortDescription: 'Designing and implementing scalable databases with MongoDB and SQL solutions.'
   }
 ]
 
@@ -111,7 +136,7 @@ export const skillList = [
     name: 'Socket.io',
     icon: SocketIcon,
   },
-    {
+  {
     name: 'PostgreSQL',
     icon: Postgresql,
   },
@@ -130,14 +155,14 @@ export const skillList = [
 ]
 
 
-   export const themes = [
+export const themes = [
   {
     name: 'Light',
-    colors: ['#ffffff', '#000000', '#ffffff', '#000000', '#000000'], 
+    colors: ['#ffffff', '#000000', '#ffffff', '#000000', '#000000'],
   },
   {
-    name: 'Dark', 
-    colors: ['#000000', '#ffffff', '#000000', '#ffffff', '#ffffff'], 
+    name: 'Dark',
+    colors: ['#000000', '#ffffff', '#000000', '#ffffff', '#ffffff'],
   }
 ]
 

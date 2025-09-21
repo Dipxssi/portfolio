@@ -1,8 +1,8 @@
 {
   "priority": 1,
-  "title": "turbo-tsconfig-gen",
-  "shortDescription": "Published npm CLI tool that automates TypeScript configuration in Turborepo monorepos. Used by developers worldwide.",
-  "livePreview": "https://www.npmjs.com/package/turbo-tsconfig-gen",
-  "type": "Open Source",
-  "siteAge": "Published package"
+  "title": "quite-hour-scheduler",
+  "shortDescription": "A comprehensive study session management application that helps students schedule focused work periods with intelligent email reminders.",
+  "livePreview": "https://github.com/Dipxssi/quiet-hours-scheduler",
+  "type": "Full Stack App",
+  "siteAge": "Completetd project"
 }

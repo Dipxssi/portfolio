@@ -1,8 +1,8 @@
 {
   "priority": 3,
-  "title": "Payway", 
-  "shortDescription": "Full-stack digital wallet platform with secure payment processing, user authentication, and transaction management.",
-  "livePreview": "https://github.com/Dipxssi/payway",
-  "type": "Full-Stack App ",
-  "siteAge": "Complete build"
+  "title": "Finboard", 
+  "shortDescription": "A powerful, real-time finance monitoring dashboard  that allows users to create customizable widgets by connecting to various financial APIs.",
+  "livePreview":"https://github.com/Dipxssi/FinBoard",
+  "type": "Finance Dashboard",
+  "siteAge": "Complete project"
 }
