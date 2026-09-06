@@ -2,8 +2,7 @@ import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
 
-// Image metadata
-export const alt = 'FULL STACK DEVELOPER'
+export const alt = 'AI & FULL-STACK ENGINEER'
 
 export const size = {
   width: 1200,
@@ -18,7 +17,7 @@ export default async function Image() {
       <div
         style={{
           background: '#000000',
-          color:'white',
+          color: 'white',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -28,14 +27,13 @@ export default async function Image() {
           padding: '1rem',
         }}>
         <h1 style={{ fontSize: 32, color: 'white', margin: 0 }}>
-          Dipsha Das | Full-Stack Web Developer 
+          Dipsha Das | AI & Full-Stack Engineer
         </h1>
         <h2 style={{ fontSize: 40, color: 'white', marginTop: 30 }}>
-         Design. Code. Launch. Repeat
+          Building agents. Shipping full-stack.
         </h2>
       </div>
     ),
-    // ImageResponse options
     {
       ...size,
     },

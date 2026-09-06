@@ -7,10 +7,10 @@ import { Fira_Code } from 'next/font/google'
 
 const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
 
-const title = 'Dipsha Das | Full-Stack Web Developer'
+const title = 'Dipsha Das | AI & Full-Stack Engineer'
 
 const description =
-  "Building tools developers actually want to use. Specializing in React, Next.js, and developer tooling. Hire me today!"
+  'Building agentic systems and full-stack products. Specializing in LLMs, tool-calling agents, React, and Next.js. Hire me today!'
 
 const url = process.env.NEXT_PUBLIC_SITE_URL
 
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: '/opengraph-image.png', 
         width: 1200,
         height: 630,
-        alt: 'Dipsha Das | Full-Stack Web Developer',
+        alt: 'Dipsha Das | AI & Full-Stack Engineer',
       },
     ],
   },

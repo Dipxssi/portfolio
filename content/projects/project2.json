@@ -1,8 +1,8 @@
 {
   "priority": 2,
-  "title": "Receptionist-agent",
-  "shortDescription": "This project implements a Domain-Specific AI Intake Agent using the OpenMic API. The agent acts as a Receptionist",
-  "livePreview": "https://github.com/Dipxssi/Receptionist-agent",
-  "type": "Agentic AI Agent",
-  "siteAge": "Completed project"
+  "title": "AI Interviewer",
+  "shortDescription": "Mercor-style live voice interview MVP: resume/GitHub intake, cascaded ASR -> Groq interviewer -> TTS, barge-in, and a session state machine over WebSockets.",
+  "livePreview": "https://github.com/Dipxssi/AI-interviwer",
+  "type": "Voice AI MVP",
+  "siteAge": "Active project"
 }

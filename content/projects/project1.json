@@ -1,8 +1,8 @@
 {
   "priority": 1,
-  "title": "quite-hour-scheduler",
-  "shortDescription": "A comprehensive study session management application that helps students schedule focused work periods with intelligent email reminders.",
-  "livePreview": "https://github.com/Dipxssi/quiet-hours-scheduler",
-  "type": "Full Stack App",
-  "siteAge": "Completetd project"
+  "title": "NanoTerminal",
+  "shortDescription": "Autonomous terminal agent with Gemini tool calling, adaptive dual-loop memory (MemCon + Lychee), safety guardrails, and Harbor / Terminal-Bench evaluation.",
+  "livePreview": "https://github.com/Dipxssi/Nanoterminal",
+  "type": "Agentic AI Agent",
+  "siteAge": "Active project"
 }

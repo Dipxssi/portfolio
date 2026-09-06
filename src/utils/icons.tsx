@@ -18,6 +18,9 @@ import Prisma from '../assets/icons/prisma-svgrepo-com.svg'
 import Postgresql from '../assets/icons/postgresql-logo-svgrepo-com.svg'
 import Mongodb from '../assets/icons/mongodb-svgrepo-com.svg'
 import Turborepo from '../assets/icons/turborepo.svg'
+import PythonIcon from '../assets/icons/python.svg'
+import LlmIcon from '../assets/icons/llm.svg'
+import AgenticAiIcon from '../assets/icons/agentic-ai.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -345,5 +348,8 @@ export {
   Prisma,
   Postgresql,
   Mongodb, 
-  Turborepo
+  Turborepo,
+  PythonIcon,
+  LlmIcon,
+  AgenticAiIcon
 }

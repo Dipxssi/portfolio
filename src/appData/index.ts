@@ -5,79 +5,87 @@ import {
   NodejsIcon,
   ReactIcon,
   SocketIcon,
-  TailwindCSS,
   TypescriptIcon,
   DatabaseIcon,
   Mongodb,
   Postgresql,
   Prisma,
-  Turborepo
+  Turborepo,
+  PythonIcon,
+  LlmIcon,
+  AgenticAiIcon,
 } from '../utils/icons'
 
 export const projects = [
   {
     priority: 1,
-    title: "quite-hour-scheduler",
-    shortDescription: "A comprehensive study session management application that helps students schedule focused work periods with intelligent email reminders.",
-    livePreview: "https://github.com/Dipxssi/quiet-hours-scheduler",
-    type: "Full Stack App",
-    siteAge: "Completetd project"
+    title: 'NanoTerminal',
+    shortDescription:
+      'Autonomous terminal agent with Gemini tool calling, adaptive dual-loop memory (MemCon + Lychee), safety guardrails, and Harbor / Terminal-Bench evaluation.',
+    livePreview: 'https://github.com/Dipxssi/Nanoterminal',
+    type: 'Agentic AI Agent',
+    siteAge: 'Active project',
   },
   {
     priority: 2,
-    title: "Receptionist-agent",
-    shortDescription: "This project implements a Domain-Specific AI Intake Agent using the OpenMic API. The agent acts as a Receptionist",
-    livePreview: "https://github.com/Dipxssi/Receptionist-agent",
-    type: "Agentic AI Agent",
-    siteAge: "Completed project"
+    title: 'AI Interviewer',
+    shortDescription:
+      'Mercor-style live voice interview MVP: resume/GitHub intake, cascaded ASR -> Groq interviewer -> TTS, barge-in, and a session state machine over WebSockets.',
+    livePreview: 'https://github.com/Dipxssi/AI-interviwer',
+    type: 'Voice AI MVP',
+    siteAge: 'Active project',
   },
   {
     priority: 3,
-    title: "Finboard",
-    shortDescription: "A powerful, real-time finance monitoring dashboard  that allows users to create customizable widgets by connecting to various financial APIs.",
-    livePreview: "https://github.com/Dipxssi/FinBoard",
-    type: "Finance Dashboard",
-    siteAge: "Complete project"
-  },
-
-  {
-    priority: 4,
-    title: 'turbo-tsconfig-gen',
-    shortDescription: 'Published npm CLI tool that automates TypeScript configuration in Turborepo monorepos. Used by developers worldwide.',
-    livePreview: 'https://www.npmjs.com/package/turbo-tsconfig-gen',
-    type: 'Open Source ',
-    siteAge: 'Published package',
-  },
-  {
-    priority: 5,
     title: 'Canvas',
-    shortDescription: 'Real-time collaborative drawing platform where multiple users can draw together in shared rooms, similar to Excalidraw.',
+    shortDescription:
+      'Real-time collaborative drawing platform where multiple users can draw together in shared rooms, similar to Excalidraw.',
     livePreview: 'https://github.com/Dipxssi/canvas',
     type: 'Full-Stack App',
     siteAge: 'Active project',
   },
-  {
-    priority: 6,
-    title: 'Payway',
-    shortDescription: 'Full-stack digital wallet platform with secure payment processing, user authentication, and transaction management.',
-    livePreview: 'https://github.com/Dipxssi/payway',
-    type: 'Full-Stack App ',
-    siteAge: 'Complete build',
-  },
 ]
 
+export const experienceData = [
+  {
+    company: 'DigiNow Solutions',
+    arrangement: 'Internship · Remote · 1 yr',
+    roles: [
+      {
+        title: 'Full Stack Intern',
+        period: 'Jul 2026 – Present',
+        bullets: [
+          'Building and shipping full-stack features across frontend and backend',
+          'Integrated LLMs into the product to power intelligent workflows and features',
+          'Collaborating remotely on product work end-to-end',
+        ],
+      },
+      {
+        title: 'Web Development Intern',
+        period: 'Oct 2025 – Jun 2026',
+        location: 'Kenya',
+        bullets: [
+          'Developed and maintained web interfaces and application features',
+          'Worked with modern web stacks in a remote internship setting',
+        ],
+      },
+    ],
+  },
+]
 
 // Service Data
 export const serviceData = [
   {
-    icon: JavaScriptIcon,
-    title: 'JavaScript Development',
-    shortDescription: 'Creating dynamic and interactive web applications using JavaScript.',
+    icon: AgenticAiIcon,
+    title: 'Agentic AI Systems',
+    shortDescription:
+      'Designing tool-calling agents with memory, safety guardrails, and evaluation pipelines.',
   },
   {
     icon: ReactIcon,
-    title: 'React.js Development',
-    shortDescription: 'Building modern and responsive user interfaces with React.js.',
+    title: 'Full-Stack Product Engineering',
+    shortDescription:
+      'Shipping end-to-end products with React, Next.js, and Node.js from UI to API.',
   },
   {
     icon: NodejsIcon,
@@ -92,22 +100,37 @@ export const serviceData = [
   {
     icon: TypescriptIcon,
     title: 'TypeScript Development',
-    shortDescription: 'Ensuring robust and maintainable code with TypeScript and modern ORMs like Prisma.',
+    shortDescription:
+      'Ensuring robust and maintainable code with TypeScript and modern ORMs like Prisma.',
   },
   {
-    icon: TailwindCSS,
-    title: 'Tailwind CSS Styling',
-    shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
+    icon: LlmIcon,
+    title: 'LLM Integration',
+    shortDescription:
+      'Integrating Gemini, Groq, and voice pipelines into real products with structured outputs.',
   },
   {
     icon: DatabaseIcon,
     title: 'Database Development',
-    shortDescription: 'Designing and implementing scalable databases with MongoDB and SQL solutions.'
-  }
+    shortDescription:
+      'Designing and implementing scalable databases with MongoDB and SQL solutions.',
+  },
 ]
 
 // Skill List
 export const skillList = [
+  {
+    name: 'Python',
+    icon: PythonIcon,
+  },
+  {
+    name: 'Gemini / LLMs',
+    icon: LlmIcon,
+  },
+  {
+    name: 'Agentic AI',
+    icon: AgenticAiIcon,
+  },
   {
     name: 'JavaScript',
     icon: JavaScriptIcon,
@@ -154,7 +177,6 @@ export const skillList = [
   },
 ]
 
-
 export const themes = [
   {
     name: 'Light',
@@ -163,7 +185,5 @@ export const themes = [
   {
     name: 'Dark',
     colors: ['#000000', '#ffffff', '#000000', '#ffffff', '#ffffff'],
-  }
+  },
 ]
-
-

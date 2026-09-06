@@ -2,7 +2,9 @@
 import useRoleSwitcher from '@/hooks/useRoleSwitcher'
 
 const Hero = () => {
-  const role = useRoleSwitcher({ roles: ['FULLSTACK DEVELOPER', 'FRONTEND DEVELOPER', 'BACKEND DEVELOPER', 'NEXT.JS DEVELOPER'] })
+  const role = useRoleSwitcher({
+    roles: ['AI ENGINEER', 'FULLSTACK DEVELOPER', 'AGENTIC SYSTEMS', 'NEXT.JS DEVELOPER'],
+  })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
@@ -13,9 +15,7 @@ const Hero = () => {
             <span className="text-accent block text-[1.75rem] font-bold">{role}</span>
           </h1>
 
-          <h2 className="text-neutral mt-3">
-            Design. Code. Launch. Repeat
-          </h2>
+          <h2 className="text-neutral mt-3">Building agents. Shipping full-stack.</h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
             <a
@@ -40,7 +40,7 @@ const Hero = () => {
 
             <a
               href="/resume.pdf"
-              download="Dipsha_Das_Fullstack_Developer_Resume.pdf"
+              download="Dipsha_Das_AI_Fullstack_Engineer_Resume.pdf"
               target="_blank"
               aria-label="Download Resume"
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
@@ -51,8 +51,8 @@ const Hero = () => {
 
         <div className="hidden md:flex flex-col items-end text-right">
           <div className="text-2xl lg:text-4xl font-extrabold font-mono leading-tight text-primary-content">
-            <div className="mb-4">Coding the web.</div>
-            <div className="mb-4">simplifying life.</div>
+            <div className="mb-4">Building agents.</div>
+            <div className="mb-4">shipping products.</div>
             <div className="mb-4">learning something new every day.</div>
           </div>
         </div>
