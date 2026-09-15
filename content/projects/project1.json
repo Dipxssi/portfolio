@@ -2,7 +2,7 @@
   "priority": 1,
   "title": "NanoTerminal",
   "shortDescription": "Autonomous terminal agent with Gemini tool calling, adaptive dual-loop memory (MemCon + Lychee), safety guardrails, and Harbor / Terminal-Bench evaluation.",
-  "livePreview": "https://github.com/Dipxssi/Nanoterminal",
+  "githubLink": "https://github.com/Dipxssi/Nanoterminal",
   "type": "Agentic AI Agent",
   "siteAge": "Active project"
 }

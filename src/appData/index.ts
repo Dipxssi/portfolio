@@ -22,7 +22,7 @@ export const projects = [
     title: 'NanoTerminal',
     shortDescription:
       'Autonomous terminal agent with Gemini tool calling, adaptive dual-loop memory (MemCon + Lychee), safety guardrails, and Harbor / Terminal-Bench evaluation.',
-    livePreview: 'https://github.com/Dipxssi/Nanoterminal',
+    githubLink: 'https://github.com/Dipxssi/Nanoterminal',
     type: 'Agentic AI Agent',
     siteAge: 'Active project',
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: 'AI Interviewer',
     shortDescription:
       'Mercor-style live voice interview MVP: resume/GitHub intake, cascaded ASR -> Groq interviewer -> TTS, barge-in, and a session state machine over WebSockets.',
-    livePreview: 'https://github.com/Dipxssi/AI-interviwer',
+    githubLink: 'https://github.com/Dipxssi/AI-interviwer',
     type: 'Voice AI MVP',
     siteAge: 'Active project',
   },
@@ -40,7 +40,7 @@ export const projects = [
     title: 'Canvas',
     shortDescription:
       'Real-time collaborative drawing platform where multiple users can draw together in shared rooms, similar to Excalidraw.',
-    livePreview: 'https://github.com/Dipxssi/canvas',
+    githubLink: 'https://github.com/Dipxssi/canvas',
     type: 'Full-Stack App',
     siteAge: 'Active project',
   },

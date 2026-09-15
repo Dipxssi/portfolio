@@ -2,7 +2,7 @@
   "priority": 2,
   "title": "AI Interviewer",
   "shortDescription": "Mercor-style live voice interview MVP: resume/GitHub intake, cascaded ASR -> Groq interviewer -> TTS, barge-in, and a session state machine over WebSockets.",
-  "livePreview": "https://github.com/Dipxssi/AI-interviwer",
+  "githubLink": "https://github.com/Dipxssi/AI-interviwer",
   "type": "Voice AI MVP",
   "siteAge": "Active project"
 }
